@@ -96,3 +96,24 @@ ul li.checked::before{
 ul li span:hover{
   background:#edeef0 ;  
 }    
+ .filters {
+     margin-top: 10px;
+}
+.filters button {
+ margin: 5px; padding: 5px 10px; cursor: pointer;background-color: indigo;color: #edeef0;
+}
+#counter {
+ margin-top: 10px; font-size: 14px; color: #444;
+}
+.edit-btn {
+ position: absolute;
+  right: 45px;   /* place before the delete × */
+  top: 8px;
+  background: #4305b5;   /* blue */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+}
